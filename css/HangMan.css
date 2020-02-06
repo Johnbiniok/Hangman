@@ -1,0 +1,183 @@
+.wrap {
+    padding: 20px 10px 15px 10px;
+    max-width: 88%;
+    background-color: #FFEEDB;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #AB9B96;
+    box-shadow: 5px 10px 18px #2C2626;
+    border-radius: 5px;
+    position: relative;
+    min-height: 93%;
+}
+.firstPage {
+    background-image: url("../images/hangmanBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1440px;
+    text-align: center;
+    padding-top: 380px;
+}
+.replayPage {
+    background-image: url("../images/hangmanBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1440px;
+    text-align: center;
+    padding-top: 300px;
+}
+.gameButton {
+    vertical-align: center;
+    padding: 18px 35px;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: #2C2626;
+    color: #FFEEDB;
+    display: inline-block;
+}
+.gameButton:hover {
+    cursor: pointer;
+    padding: 20px 40px;
+    color: #02D7D1;
+    background-color: #000000;
+}
+.trueGame {
+    background-image: url("../images/backGround.jpg");
+    background-size: 1440px;
+}
+.center{
+    text-align: center;
+}
+#title {
+    color: #110C00;
+}
+#allKeys {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+#keyboard {
+    text-align: center;
+}
+/*.firstRow {
+    display: inline;
+    border: #E70000 solid;
+    padding: 20px 30px 20px;
+}
+.secondRow {
+    display: inline;
+    border: #E70000 solid;
+    padding: 20px 30px 20px;
+}
+.thirdRow {
+    display: inline;
+    border: #E70000 solid;
+    padding: 20px 30px 20px;
+}
+.fourthRow {
+    display: inline;
+    border: #E70000 solid;
+    padding: 20px 30px 20px;
+}*/
+.separate{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.key{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 5px outset #E70000;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 12px 15px;
+    vertical-align: baseline;
+    font-variant: small-caps;
+    background-color: #FEF5D1;
+    margin-left: 7px;
+}
+.key:hover {
+    background-color: black;
+    color: #FFEEDB;
+    border: 5px inset #E70000;
+    cursor: pointer;
+}
+/*#i {
+    padding: 20px 41px 20px;
+}
+#j {
+    padding: 20px 36px 20px;
+}
+#m {
+    padding: 20px 21px 20px;
+}
+#p {
+    padding: 20px 35px 20px;
+}
+#n {
+    padding: 20px 28px 20px;
+}
+#h {
+    padding: 20px 33px 20px;
+}*/
+/*ul div li {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    border: 5px outset #E70000;
+    padding: 10px 17px 10px;
+}*/
+.openSpace {
+    text-align: center;
+    display: inline;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#spaces {
+    text-align: center;
+    font-size: 60px;
+}
+.key1{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 5px inset #810202;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 12px 15px;
+    vertical-align: baseline;
+    font-variant: small-caps;
+    background-color: black;
+    margin-left: 7px;
+    color: #FFEEDB;
+}
+.correctLetter {
+    font-size: 80px;
+    font-weight: bold;
+}
+#gameCanvas{
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+#hangmanImg{
+    text-align: center;
+}
+#youWon{
+    font-size: 90px;
+    color: #229922;
+}
+#youLost{
+    font-size: 90px;
+    color: #EC1D00;
+}
+#replayGame {
+margin-top: 50px;
+
+}

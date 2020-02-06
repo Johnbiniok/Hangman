@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/HangMan.css">
+    <!--<link href="fontasticsymbols/styles.css" rel="stylesheet" media="all">-->
+</head>
+<body class="firstPage">
+    <div id="hideGame">
+        <header>
+            <h1 id="title" class="center">Hangman</h1>
+        </header>
+        <div class="wrap">
+            <div id="boardContainer">
+                <div id="hangmanImg">
+                    <canvas id="gameCanvas">
+                    </canvas>
+                </div>
+
+                <div id="spaces"></div>
+                <div id="keyPad"></div>
+            </div>
+        </div>
+    </div>
+
+    <button id="replayGame" class="gameButton">Play Again</button>
+    <div id="displaywin" class="endGame"></div>
+    <button id="startGame" class="gameButton">Start Game</button>
+    <footer>
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/HangMan.js"></script>
+    </footer>
+</body>
+</html>
